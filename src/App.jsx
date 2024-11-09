@@ -1,4 +1,6 @@
 import './App.css'
+import {HashRouter as Router, Route, Routs} from 'react-router-dom';
+import About from './Components/About';
 
 
 
@@ -12,9 +14,14 @@ function App() {
     <>
 
 
+<Router>
+  <Routs>
+    <Route path='/' element={<About/>}/>
 
-<h1>hey hoda</h1>
-<h1>hey hoda</h1>
+  </Routs>
+</Router>
+
+
 
 
     </>
