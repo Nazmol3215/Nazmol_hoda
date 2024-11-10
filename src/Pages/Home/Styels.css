@@ -1,0 +1,64 @@
+.First_text{
+background-color: #000000;
+color: #FFFFFF;
+}
+
+.build{
+    text-align: center;
+    font-size: 38px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight:400;
+    font-stretch:100%;
+    text-transform:capitalize;
+}
+
+.hi{
+    text-align: center;
+}
+
+.Secand_Con{
+    background-color: #1E1F30;
+}
+
+.Firs_img{
+    width: 293px;
+    height: 322px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Secand_two.img{
+    margin: auto;
+}
+
+.freelance{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.freelance{
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.Contact_Me{
+    color: aliceblue;
+
+}
+.TextComponentOne .How_can{
+    margin-top: 44px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+
+.card-body{
+    background-color: #E7FDFA;
+}
+
+.TextComponentOne{
+    background-color: black;
+}
+
