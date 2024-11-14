@@ -16,6 +16,10 @@ color: #FFFFFF;
 .hi{
     text-align: center;
 }
+hi.build{
+    text-align: center;
+    background-color: #000000;
+}
 
 .Secand_Con{
     background-color: #1E1F30;

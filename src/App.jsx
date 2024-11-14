@@ -6,20 +6,15 @@ import FrstCon from './Pages/Home/FrstCon';
 import FaqPage from './TestGPT/TestOne';
 import TestimonialSlider from './Pages/Home/TestimonialSlider';
 import Footer from './Layout/Footer'; 
-
-
-
+import Link from './AllLinks/Link';
 
 
 function App() {
 
   return (
     <>
-
+<Link/>
 <OffcanvasExample/>
-
-
-
 <FrstCon/>
 <TextComponent/>
 <StatsSection/>

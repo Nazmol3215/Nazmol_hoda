@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-2 mb-2">
-            <a href="https://facebook.com" className="btn btn-primary w-100" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/nazmul.hoda.854659" className="btn btn-primary w-100" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} /> Facebook
             </a>
           </div>
@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="col-md-2 mb-2">
-            <a href="https://github.com" className="btn btn-dark w-100" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Nazmol3215" className="btn btn-dark w-100" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> GitHub
             </a>
           </div>
@@ -38,15 +38,16 @@ const Footer = () => {
         <div className="row mt-3">
           <div className="col-md-12">
             <p>
-              <FontAwesomeIcon icon={faPhone} /> 01824525986
+              <FontAwesomeIcon icon={faPhone} /> 01893717875
+              01941165110
             </p>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} /> sirajummahdigmail.com
+              <FontAwesomeIcon icon={faEnvelope} /> mdasikahad2006@gmail.com
             </p>
           </div>
         </div>
         <div className="mt-4">
-          <h5>Sirajum Mahdi</h5>
+          <h5>Nazmol hoda</h5>
         </div>
       </div>
     </footer>
