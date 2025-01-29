@@ -1,0 +1,47 @@
+.container {
+  width: 90%;
+  text-align: left;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #fff;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: fadeIn 1.5s ease-in-out forwards;
+  
+}
+
+.paragraph:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.paragraph:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.paragraph:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* <div class="container">
+    <p class="paragraph">This is the first paragraph that will appear from the left side, slowly fading in.</p>
+    <p class="paragraph">The second paragraph follows with a slight delay, creating a staggered effect.</p>
+    <p class="paragraph">And finally, the third paragraph will fade in with a little more delay.</p>
+  </div> */

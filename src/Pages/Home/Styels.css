@@ -5,12 +5,18 @@ color: #FFFFFF;
 
 .build{
     text-align: center;
-    font-size: 38px;
+    font-size: 8px;
     color: #FFFFFF;
     font-family: sans-serif;
     font-weight:400;
     font-stretch:100%;
     text-transform:capitalize;
+    font-weight: 13px;
+    color: blueviolet;
+}
+
+body{
+    background-color: hsl(0, 89%, 45%);
 }
 
 .hi{
@@ -25,13 +31,13 @@ hi.build{
     background-color: #1E1F30;
 }
 
-.Firs_img{
+/* .Firs_img{
     width: 293px;
     height: 322px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
+} */
 
 .Secand_two.img{
     margin: auto;

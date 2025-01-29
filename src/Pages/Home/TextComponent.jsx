@@ -1,4 +1,5 @@
 import React from "react";
+import './TextComponent.css'; 
 
 
 
@@ -8,7 +9,7 @@ const TextComponent = () => {
       <div className="row">
 
 <h1 className="How_can">How can I help?</h1>
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 paragraph">
           <div className="card h-100">
             <div className="card-body">
               <h5 className="card-title">Full Website Design</h5>
@@ -22,7 +23,7 @@ const TextComponent = () => {
           </div>
         </div>
 
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 paragraph">
           <div className="card h-100">
             <div className="card-body">
               <h5 className="card-title">Landing Page Design</h5>
@@ -36,7 +37,7 @@ const TextComponent = () => {
           </div>
         </div>
 
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 paragraph">
           <div className="card h-100">
             <div className="card-body">
               <h5 className="card-title">Ecommerce Design</h5>

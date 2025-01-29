@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import OfferPackages from '../OtherPages/PackageCard';
-
+import Pages from './Pages'; 
 
 
 
@@ -10,8 +9,9 @@ export default function Link() {
     <div>
       
 <BrowserRouter>
+<Pages/>
 <Routes>
-    <Route  path="/OfferPackages" element={<OfferPackages/>}/>
+
 </Routes>
 </BrowserRouter>
 

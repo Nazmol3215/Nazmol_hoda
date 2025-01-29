@@ -11,7 +11,6 @@ const FrstCon = () => {
         
         I build beautiful websites <br />
       for my clients
-      <h4>see my Portfolio</h4>
 
       </h1>
 

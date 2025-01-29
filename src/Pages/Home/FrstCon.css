@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ .build{
+
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 2.5rem;
+
+ } 
+        
+        
+        
+        
+        
+        
+        
+        .containerOne {
+            width: 80%;
+            text-align: left;
+        }
+
+
+        .animated-paragraph {
+            display: inline-block;
+            padding: 20px 40px;
+            border-radius: 30px;
+            font-size: 18px;
+            color: #333;
+            position: relative;
+            top: 100%;
+            animation: slideUp 4s ease-out forwards;
+            justify-content: left;
+        }
+
+        /* Animation */
+        @keyframes slideUp {
+            to {
+                top: 50%;
+                transform: translateY(-4%);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* <div class="container">
+        <p class="animated-paragraph">এই প্যারাগ্রাফের টেক্সট নিচের দিক থেকে আসবে এবং এটি রাউন্ড শেপ সহ বর্ডার থাকবে। আপনি এখানে যেকোনো টেক্সট লিখতে পারেন।</p>
+    </div> */

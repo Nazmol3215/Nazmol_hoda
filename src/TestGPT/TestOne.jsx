@@ -9,24 +9,25 @@ const FaqPage = () => {
   // Array of FAQ data
   const faqs = [
     {
-      question: "What is React?",
-      answer: "React is a JavaScript library for building user interfaces, primarily used for single-page applications."
+      question: "How long will it take to build my e-commerce website?",
+      answer: "The timeline depends on the complexity of the website. A basic e-commerce site with essential features may take 2-4 weeks, while an advanced site with custom features, payment integration, and admin panels may take 6-8 weeks. If you need additional customizations, it might take longer."
     },
     {
-      question: "How do I use React?",
-      answer: "You can start using React by creating components, which are reusable pieces of code for UI elements. Components can be functional or class-based."
+      question: " How will my customers make payments on the website?",
+      answer: "Your customers can make payments using credit/debit cards, mobile banking, and digital wallets like Stripe, PayPal, bKash, or Rocket. I will integrate secure payment gateways and ensure transactions are encrypted and PCI-compliant for maximum security."
     },
     {
-      question: "What is JSX?",
-      answer: "JSX is a syntax extension for JavaScript that looks similar to HTML. It allows you to write HTML in React components."
+      question: " Will my website be mobile-friendly?",
+      answer: "Yes, absolutely! Your e-commerce website will be fully responsive, meaning it will work smoothly on desktops, tablets, and mobile devices. A mobile-friendly design improves user experience and increases sales."
     },
     {
-      question: "What are React hooks?",
-      answer: "React hooks are functions that let you 'hook into' React state and lifecycle features from function components."
-    },
-    {
-      question: "What is the virtual DOM?",
-      answer: "The virtual DOM is a lightweight representation of the actual DOM. React uses it to efficiently update the UI by only rendering components that have changed."
+      question: "How will I manage products and orders on my website?",
+      answer: " I will provide you with an admin dashboard where you can: Add, edit, and delete products. Manage inventory and stock levels. View and process orders. Generate reports and analytics. You will have full control over your e-commerce store."},
+  
+
+{
+      question: " What will be the total cost of building the website?",
+      answer: "The cost depends on the features and complexity of your e-commerce website. A basic store may cost $500-$1,500, while a more advanced store with custom functionalities may cost $2,000 or more. I can provide a detailed breakdown based on your specific requirements"
     },
   ];
 
@@ -42,7 +43,7 @@ const FaqPage = () => {
         {faqs.map((faq, index) => (
           <div key={index} className="faq-item">
             <div className="faq-question" onClick={() => toggleAnswer(index)}>
-              <h3>{faq.question}</h3>
+              <h6>{faq.question}</h6>
               <span>{openIndex === index ? '-' : '+'}</span>
             </div>
             {openIndex === index && <p className="faq-answer">{faq.answer}</p>}
